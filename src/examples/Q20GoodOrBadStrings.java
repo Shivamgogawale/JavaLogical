@@ -1,4 +1,4 @@
-package src.examples;
+package examples;
 
 public class Q20GoodOrBadStrings {
 
