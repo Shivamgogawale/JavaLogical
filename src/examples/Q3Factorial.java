@@ -10,6 +10,8 @@ public class Q3Factorial {
 	
 	public static int getFactorial(int number)
 	{
+		if(number<=1)
+			return 1;
 		int fact=1;
 		while(number>0)
 		{
