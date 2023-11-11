@@ -8,7 +8,7 @@ public class Q11ImmediateSmallerElement {
 		immdiateSmaller(a);
 	}
 	
-	public static void immdiateSmaller(int []number)
+	public static int[] immdiateSmaller(int []number)
 	{
 		int[] result=new int[number.length];
 		result[number.length-1]=-1;
@@ -19,10 +19,7 @@ public class Q11ImmediateSmallerElement {
 			else
 				result[i]=number[i+1];
 		}
-		for(int i=0;i<result.length;i++)
-		{
-			System.out.println(result[i]);
-		}
+		return result;
 	}
 
 }

@@ -8,7 +8,7 @@ public class Q12ZigZagArray {
 		zigZag(number);
 	}
 
-	public static void zigZag(int number[])
+	public static int[] zigZag(int number[])
 	{
 		
 		for(int i=0;i<number.length-1;i++)
@@ -26,10 +26,7 @@ public class Q12ZigZagArray {
 				number[i+1]=result[1];
 			}
 		}
-		for(int i=0;i<number.length;i++)
-		{
-			System.out.print(number[i]+"\t");
-		}
+		return number;
 	}
 	public static int[] getSwap(int number1,int number2)
 	{

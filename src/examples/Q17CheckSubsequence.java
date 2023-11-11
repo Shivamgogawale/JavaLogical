@@ -30,12 +30,10 @@ public class Q17CheckSubsequence {
 		}
 		if(cnt==str1.length())
 		{
-			System.out.println(str1+" is subsequence of "+str2);
 			return true;
 		}
 		else 
 		{
-			System.out.println("Not Subsequence");
 			return false;
 		}
 		
