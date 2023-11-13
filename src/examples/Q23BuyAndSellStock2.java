@@ -4,8 +4,8 @@ public class Q23BuyAndSellStock2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=5;
-		int[] prices = {1, 3, 5, 7, 9};
+		int n=4;
+		int[] prices = {3, 4, 1, 5};
 	    int maxProfit = maxProfit(n, prices);
 	    System.out.println("Maximum Profit: " + maxProfit);
 	}

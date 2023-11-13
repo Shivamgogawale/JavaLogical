@@ -8,6 +8,7 @@ public class Q22StockBuyAndSell {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int number[]= {100,180,260,310,40,535,695};
+		//int number[]= {4,2,2,2,4};
 		stockBuySell(number);
 	}
 	public static List<ArrayList<Integer>> stockBuySell(int number[])
@@ -39,7 +40,6 @@ public class Q22StockBuyAndSell {
 	            li.add(sell);
 	            ans.add(li);
 	        }    
-	        System.out.println(ans);
 	        return ans;
 	}
 }	

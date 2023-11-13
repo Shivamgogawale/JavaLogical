@@ -4,7 +4,7 @@ public class Q27EquilibriumPoints {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int number[]= {1};
+		int number[]= {1,3,5,2,2};
 		System.out.println(equilibriumPoint(number,number.length));
 	}
 	
